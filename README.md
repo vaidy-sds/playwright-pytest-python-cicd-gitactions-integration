@@ -6,5 +6,5 @@ Goals:
 - [x] create data structure to hold test data
 - [x] manage page locators and functions using page object model
 - [x] add a test fixture to turn on trace logging
-- [ ] integrate with ci/cd using git actions
-- [ ] run tests on push to master
+- [x] integrate with ci/cd using git actions
+- [x] run tests on push to master
