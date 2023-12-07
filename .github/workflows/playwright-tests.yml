@@ -18,7 +18,7 @@ jobs:
       run: |
         echo "----PYTHONPATH------"
         PWD=$(pwd)
-        export PYTHONPATH=$PWD/models:$PWD/tests:$PYTHONPATH
+        export PYTHONPATH=$PWD/models:$PWD/tests:$PWD/fixtures:$PYTHONPATH
         echo "PYTHONPATH=$PYTHONPATH" >> $GITHUB_ENV
     - name: Install dependencies
       run: |
