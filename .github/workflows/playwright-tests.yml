@@ -27,7 +27,7 @@ jobs:
     - name: Ensure browsers are installed
       run: python -m playwright install chromium --with-deps
     - name: Run your tests
-      run: pytest --tracing=retain-on-failure
+      run: pytest
     - uses: actions/upload-artifact@v3
       if: always()
       with:
