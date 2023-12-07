@@ -2,7 +2,9 @@
 Playwright/Pytest/Python CI/CD demo with git actions
 
 Goals:
-- [ ] create a fixture to load urls of various websites
-- [x] create simple assertion tests with page objects
+- [x] create simple website check test
+- [x] create data structure to hold test data
+- [x] manage page locators and functions using page object model
+- [ ] add a test fixture to turn on trace logging
 - [ ] integrate with ci/cd using git actions
 - [ ] run tests on push to master
