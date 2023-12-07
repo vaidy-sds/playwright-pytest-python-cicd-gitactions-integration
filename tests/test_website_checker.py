@@ -1,8 +1,12 @@
-from playwright.sync_api import Page, expect
+from playwright.sync_api import Page
+
+from models.playwright_home_page import PlaywrightHomePage
 
 
 def test_playwright_website(page: Page):
     # goto page
-    page.goto("https://playwright.dev/")
+    homepage = PlaywrightHomePage(page)
+    homepage.goto()
+
     # check link on homepage
-    expect(page.get_by_role("link", name="Playwright logo Playwright")).to_be_visible()
+    homepage.check_logo()
