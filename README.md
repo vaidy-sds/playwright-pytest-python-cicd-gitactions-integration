@@ -11,12 +11,15 @@ Goals:
 
 ## Setup
 - Install Python3.x and pip 
+- Setup virtual environment
+  - `python3.12 -m venv venv`'
+  - `source venv/bin/activate`
 - `pip install --upgrade pip`
 - `pip install pytest`
 - `pip install pytest-playwright`
 - `playwright install`
 
 ## Run Tests
-- `pytest tests/`
+- `python -m pytest tests`
 
 
