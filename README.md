@@ -18,20 +18,12 @@ Goals:
 
 ## Setup
 - Install Python3.x and pip 
-- Virtual Env Setup
-  - `python3.x -m venv venv`
-  - `source venv/bin/activate`
-  - `deactivate` to exit
-- Upgrade pip
-  - `pip install --upgrade pip`
-- Install playwright
-  - `pip install playwright` 
-- Install Chromium
-- `playwright install chromium`
-- Install pytest
-  - `pip install pytest`
-- Install pytest-playwright
-  - `pip install pytest-playwright`
+- `pip install --upgrade pip`
+- `pip install pytest`
+- `pip install pytest-playwright`
+- `playwright install`
 
+## Run Tests
+- `pytest tests/`
 
 
