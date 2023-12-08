@@ -9,13 +9,6 @@ Goals:
 - [x] integrate with ci/cd using git actions
 - [x] run tests on push to master
 
-## Requirements 
-- Python 3.12
-- pip
-- playwright
-- pytest
-- pytest-playwright plugin
-
 ## Setup
 - Install Python3.x and pip 
 - `pip install --upgrade pip`
